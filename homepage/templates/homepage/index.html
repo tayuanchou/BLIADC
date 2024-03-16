@@ -1,0 +1,255 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>國際佛光會華府協會</title>
+    <!--Google font "Inter"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'homepage/styles.css' %}" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <section class="header">
+        <a href="{% url 'home' %}" class="logo-link">
+          <!--The logo is downloaded from flaticon-->
+          <div class="logo-img">
+            <img
+              src="{% static 'pics/BLIA_logo.webp' %}"
+              class="logo"
+              alt="Logo"
+            />
+          </div>
+
+          <div class="title">
+            <h1 class="titleText">國際佛光會華府協會</h1>
+            <h3 class="subText">
+              Buddha's Light International Association, Washington, DC
+            </h3>
+          </div>
+        </a>
+      </section>
+    </header>
+    <!--nav bar-->
+    <nav>
+      <ul>
+        <li><a class="" href="{% url 'home' %}">首頁</a></li>
+        <li><a href="#">最新消息</a></li>
+        <li><a href="#">讀書會</a></li>
+        <li><a href="">活動</a></li>
+        <li><a href="#">圖書館</a></li>
+        <li><a href="#">照片</a></li>
+        <li><a href="#">下載</a></li>
+      </ul>
+    </nav>
+    <!--main content-->
+    <main>
+      <section class="left-section">
+        <div class="activity">
+          <h1>最新活動</h1>
+          <div class="card">
+            <h3>剪樹藤</h3>
+            <h3>2024年3月15日</h3>
+            <div class="content">
+              <ul class="description">
+                <li>
+                  <img
+                    src="{% static '/pics/clip_tree.jpg' %}"
+                    class="poster-img"
+                    alt="poster"
+                  />
+                </li>
+                <li>
+                  佛光會華府協會將於3月15日舉辦剪樹藤活動，歡迎大家參加。 Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  temporibus eligendi beatae magnam culpa, autem reprehenderit,
+                  laudantium dolores, aliquam animi a! Veritatis modi suscipit,
+                  dolorum asperiores hic incidunt debitis corrupti omnis natus
+                  doloremque expedita eaque quibusdam assumenda ea dolor
+                  laboriosam culpa tempore amet corporis dignissimos quos
+                  deleniti? Quam ipsa officiis debitis, odio cupiditate deserunt
+                  explicabo corporis natus molestias, laboriosam consequuntur
+                  iste doloribus tempora culpa excepturi quo, fuga voluptate
+                  impedit. Nostrum debitis praesentium eos vitae deserunt saepe
+                  sequi obcaecati pariatur placeat labore consectetur, amet
+                  optio at quaerat officia velit quo similique! Unde sit aliquam
+                  ipsa veritatis officiis? Quis odit in repellat.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <h3>划龍舟迎接端午</h3>
+            <h3>2024年1月1日</h3>
+            <div class="content">
+              <ul class="description">
+                <li>
+                  <img
+                    src="{% static '/pics/plant_tree.jpg' %}"
+                    class="poster-img"
+                    alt="poster"
+                  />
+                </li>
+                <li>
+                  佛光會華府協會將於端午節舉辦划龍舟活動，歡迎大家參加。 Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  temporibus eligendi beatae magnam culpa, autem reprehenderit,
+                  laudantium dolores, aliquam animi a! Veritatis modi suscipit,
+                  dolorum asperiores hic incidunt debitis corrupti omnis natus
+                  doloremque expedita eaque quibusdam assumenda ea dolor
+                  laboriosam culpa tempore amet corporis dignissimos quos
+                  deleniti? Quam ipsa officiis debitis, odio cupiditate deserunt
+                  explicabo corporis natus molestias, laboriosam consequuntur
+                  iste doloribus tempora culpa excepturi quo, fuga voluptate
+                  impedit. Nostrum debitis praesentium eos vitae deserunt saepe
+                  sequi obcaecati pariatur placeat labore consectetur, amet
+                  optio at quaerat officia velit quo similique! Unde sit aliquam
+                  ipsa veritatis officiis? Quis odit in repellat.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="study">
+          <h1>讀書會</h1>
+          <div class="card">
+            <h3>划龍舟迎接端午</h3>
+            <h3>2024年1月1日</h3>
+            <div class="content">
+              <ul class="description">
+                <li>
+                  <img
+                    src="{% static '/pics/plant_tree.jpg' %}"
+                    class="poster-img"
+                    alt="poster"
+                  />
+                </li>
+                <li>
+                  佛光會華府協會將於端午節舉辦划龍舟活動，歡迎大家參加。 Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  temporibus eligendi beatae magnam culpa, autem reprehenderit,
+                  laudantium dolores, aliquam animi a! Veritatis modi suscipit,
+                  dolorum asperiores hic incidunt debitis corrupti omnis natus
+                  doloremque expedita eaque quibusdam assumenda ea dolor
+                  laboriosam culpa tempore amet corporis dignissimos quos
+                  deleniti? Quam ipsa officiis debitis, odio cupiditate deserunt
+                  explicabo corporis natus molestias, laboriosam consequuntur
+                  iste doloribus tempora culpa excepturi quo, fuga voluptate
+                  impedit. Nostrum debitis praesentium eos vitae deserunt saepe
+                  sequi obcaecati pariatur placeat labore consectetur, amet
+                  optio at quaerat officia velit quo similique! Unde sit aliquam
+                  ipsa veritatis officiis? Quis odit in repellat.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="posts">
+          <h1>最新消息</h1>
+          <div class="card">
+            <h3>划龍舟迎接端午</h3>
+            <h3>2024年1月1日</h3>
+            <div class="content">
+              <ul class="description">
+                <li>
+                  <img
+                    src="{% static '/pics/plant_tree.jpg' %}"
+                    class="poster-img"
+                    alt="poster"
+                  />
+                </li>
+                <li>
+                  佛光會華府協會將於端午節舉辦划龍舟活動，歡迎大家參加。 Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  temporibus eligendi beatae magnam culpa, autem reprehenderit,
+                  laudantium dolores, aliquam animi a! Veritatis modi suscipit,
+                  dolorum asperiores hic incidunt debitis corrupti omnis natus
+                  doloremque expedita eaque quibusdam assumenda ea dolor
+                  laboriosam culpa tempore amet corporis dignissimos quos
+                  deleniti? Quam ipsa officiis debitis, odio cupiditate deserunt
+                  explicabo corporis natus molestias, laboriosam consequuntur
+                  iste doloribus tempora culpa excepturi quo, fuga voluptate
+                  impedit. Nostrum debitis praesentium eos vitae deserunt saepe
+                  sequi obcaecati pariatur placeat labore consectetur, amet
+                  optio at quaerat officia velit quo similique! Unde sit aliquam
+                  ipsa veritatis officiis? Quis odit in repellat.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="right-section">
+        <a href="https://www.fgs.org.tw/"
+          ><img
+            src="{% static '/pics/fgs_1.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.blia.org/"
+          ><img
+            src="{% static '/pics/fgs_2.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.blpusa.com/"
+          ><img
+            src="{% static '/pics/fgs_3.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.merit-times.com/"
+          ><img
+            src="{% static '/pics/fgs_4.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.bltv.tv/"
+          ><img
+            src="{% static '/pics/fgs_5.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.amazon.com/"
+          ><img
+            src="{% static '/pics/fgs_6.png' %}"
+            class="adv6"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.youtube.com/watch?v=s9IL30qBXJQ"
+          ><img
+            src="{% static '/pics/fgs_7.png' %}"
+            class="adv7"
+            alt="fgs_link"
+          />
+        </a>
+      </section>
+    </main>
+    <!--footer-->
+    <footer>
+      <ul>
+        <li>
+          <a href="#">聯絡我們</a> | 佛光緣 328 Main Street, 2nd
+          Fl.,Gaithersburg, MD 20878
+        </li>
+        <li><a href="#">Facebook</a></li>
+        <li>
+          <h3>Copyright 2024 @BLIA-DC</h3>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

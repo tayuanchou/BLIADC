@@ -1,0 +1,148 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>國際佛光會華府協會</title>
+    <!--Google font "Inter"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'homepage/styles.css' %}" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <section class="header">
+        <a href="#" class="logo-link">
+          <!--The logo is downloaded from flaticon-->
+          <div class="logo-img">
+            <img
+              src="{% static 'pics/BLIA_logo.webp' %}"
+              class="logo"
+              alt="Logo"
+            />
+          </div>
+
+          <div class="title">
+            <h1 class="titleText">國際佛光會華府協會</h1>
+            <h3 class="subText">
+              Buddha's Light International Association, Washington, DC
+            </h3>
+          </div>
+        </a>
+      </section>
+    </header>
+    <!--nav bar-->
+    <nav>
+      <ul>
+        <li><a class="" href="{% url 'home' %}">首頁</a></li>
+        <li><a href="#">最新消息</a></li>
+        <li><a href="#">讀書會</a></li>
+        <li><a href="{% url 'posts' %}">活動</a></li>
+        <li><a href="#">圖書館</a></li>
+        <li><a href="#">照片</a></li>
+        <li><a href="#">下載</a></li>
+      </ul>
+    </nav>
+    <!--main content-->
+    <main>
+      <section class="left-section">
+        <section class="post-list">
+          <section class="post-card">
+            <div class="poster">
+              <img
+                src="{% static '/pics/plant_tree.jpg' %}"
+                class="poster-img"
+                alt="poster"
+              />
+            </div>
+            <div class="description">
+              <h2>Post Title</h2>
+              <p>Post Content</p>
+            </div>
+          </section>
+          <section class="post-list">
+            <section class="post-card">
+              <div class="poster">
+                <img
+                  src="{% static '/pics/plant_tree.jpg' %}"
+                  class="poster-img"
+                  alt="poster"
+                />
+              </div>
+              <div class="description">
+                <h2>Post Title</h2>
+                <p>Post Content</p>
+              </div>
+            </section>
+        </section>
+      </section>
+      <section class="right-section">
+        <a href="https://www.fgs.org.tw/"
+          ><img
+            src="{% static '/pics/fgs_1.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.blia.org/"
+          ><img
+            src="{% static '/pics/fgs_2.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.blpusa.com/"
+          ><img
+            src="{% static '/pics/fgs_3.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.merit-times.com/"
+          ><img
+            src="{% static '/pics/fgs_4.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.bltv.tv/"
+          ><img
+            src="{% static '/pics/fgs_5.jpg' %}"
+            class="adv1"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.amazon.com/"
+          ><img
+            src="{% static '/pics/fgs_6.png' %}"
+            class="adv6"
+            alt="fgs_link"
+          />
+        </a>
+        <a href="https://www.youtube.com/watch?v=s9IL30qBXJQ"
+          ><img
+            src="{% static '/pics/fgs_7.png' %}"
+            class="adv7"
+            alt="fgs_link"
+          />
+        </a>
+      </section>
+    </main>
+    <!--footer-->
+    <footer>
+      <ul>
+        <li><a href="#">聯絡我們</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li>
+          <h3>Copyright 2024 @BLIA-DC</h3>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
