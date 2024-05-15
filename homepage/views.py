@@ -10,3 +10,7 @@ def index(request):
 
 def posts(request):
     return render(request, "homepage/posts.html")
+
+
+def blog(request):
+    return render(request, "homepage/blog.html")
